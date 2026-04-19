@@ -4,73 +4,54 @@ export interface Image {
 }
 
 export const IMAGE_PORTFOLIO: Image[] = [
+  
   {
-    filename: 'Love between us',
-    url: 'assets/portfolio/love-between-us.jpg',
+    filename: 'baby and mother',
+    url: 'assets/portfolio/babyandmom2.webp',
   },
   {
-    filename: 'Look at me',
-    url: 'assets/portfolio/look-at-me.jpg',
+    filename: 'baby',
+    url: 'assets/portfolio/baby.webp',
+  },
+  {
+    filename: 'Hugg',
+    url: 'assets/portfolio/hugg.webp',
+  },
+  {
+    filename: 'baby and mother 3',
+    url: 'assets/portfolio/babyandmom3.webp',
+  },
+  {
+    filename: "baby 4",
+    url: "assets/portfolio/beb4.webp",
+    },
+    {
+    filename: 'Bisous',
+    url: 'assets/portfolio/bisou.webp',
+  },  
+  {
+    filename: 'Mother and children',
+    url: 'assets/portfolio/mother-and-children.webp',
+  },
+   {
+    filename: ' two children',
+    url: 'assets/portfolio/two-children.webp',
+  },
+  {
+    filename: "feet",
+    url: "assets/portfolio/feet.webp",
   },
   {
     filename: 'two sisters reading a book',
     url: 'assets/portfolio/two-sisters-reading-book.jpg',
   },
-  {
-    filename: 'Two sisters',
-    url: 'assets/portfolio/two-sisters.jpg',
-  },
-  {
-    filename: 'After coffee',
-    url: 'assets/portfolio/aftercoffee.jpg',
-  },
-  {
-    filename: 'baby',
-    url: 'assets/portfolio/baby.jpg',
-  },
-  {
-    filename: 'baby and mother',
-    url: 'assets/portfolio/babyandmom2.jpg',
-  },
-  {
-    filename: 'baby and mother 3',
-    url: 'assets/portfolio/babyandmom3.jpg',
-  },
-  {
-    filename: 'baby and mother ',
-    url: 'assets/portfolio/babzandmom.jpg',
-  },
-  {
-    filename: 'Eye',
-    url: 'assets/portfolio/eye.jpg',
-  },
-    {
-    filename: 'Bisous',
-    url: 'assets/portfolio/bisou.jpg',
-  },
-  {
-    filename: 'Feet',
-    url: 'assets/portfolio/feet.jpg',
-  },
    {
-    filename: 'Hugg',
-    url: 'assets/portfolio/hugg.jpg',
-  },
-  {
-    filename: 'Hugg 2',
-    url: 'assets/portfolio/hugg2.jpg',
-  },
-  {
-    filename: 'Mother and children',
-    url: 'assets/portfolio/mother-and-children.jpg',
-  },
-  {
-    filename: ' two children',
-    url: 'assets/portfolio/two-children.jpg',
-  },
-  {
     filename: "Two siesters",
     url: "assets/portfolio/two.jpg",
+  },
+  {
+    filename: 'Two sisters',
+    url: 'assets/portfolio/two-sisters.webp',
   },
   {
     filename: 'Kiss hugg',
@@ -78,143 +59,106 @@ export const IMAGE_PORTFOLIO: Image[] = [
   },
    {
     filename: 'field',
-    url: 'assets/portfolio/field.jpg',
+    url: 'assets/portfolio/field.webp',
   },
   {
     filename: 'Beach',
-    url: 'assets/portfolio/beach.jpg',
+    url: 'assets/portfolio/beach.webp',
   },
-   {
+   
+  
+  {
+    filename: 'Couple',
+    url: 'assets/portfolio/clem.webp',
+  },
+  {
     filename: 'Paris 2',
     url: 'assets/portfolio/paris2.jpg',
   },
-  {
-    filename: 'Paris 3',
-    url: 'assets/portfolio/paris3.jpg',
-  },
-  {
-    filename: 'Couple',
-    url: 'assets/portfolio/clem.jpg',
-  },
-  {
-    filename: 'Couple 2',
-    url: 'assets/portfolio/clem2.jpg',
-  },
+  
   {
     filename: 'Couple 3',
-    url: 'assets/portfolio/clem3.jpg',
+    url: 'assets/portfolio/clem3.webp',
   },
+  
   {
-    filename: 'Cousine',
-    url: 'assets/portfolio/cousine.jpg',
+    filename: 'Triple wedding',
+    url: 'assets/portfolio/tripleImage_wedding.webp',
   },
-  {
-    filename: 'Danse with me',
-    url: 'assets/portfolio/danse.jpg',
-  },
+  
   {
     filename: 'Danse with dress',
-    url: 'assets/portfolio/dress.jpg',
+    url: 'assets/portfolio/dress.webp',
   },
   {
     filename: 'garden',
-    url: 'assets/portfolio/garden.jpg',
+    url: 'assets/portfolio/garden.webp',
+  },
+  
+  
+  {
+    filename: 'Chantilly',
+    url: 'assets/portfolio/chantillly.webp',
   },
   {
     filename: 'Kiss',
-    url: 'assets/portfolio/kiss.jpg',
-  },
-  {
-    filename: 'Chantilly',
-    url: 'assets/portfolio/chantillly.jpg',
+    url: 'assets/portfolio/kiss.webp',
   },
   {
     filename: 'Chantilly 2',
-    url: 'assets/portfolio/chantilly2.jpg',
-  },
-  {
-    filename: 'Chantilly 3',
-    url: 'assets/portfolio/chantilly3.jpg',
-  },
-  {
-    filename: 'Chantilly 4',
-    url: 'assets/portfolio/chantilly4.jpg',
-  },
-  {
-    filename: 'Hugg 3',
-    url: 'assets/portfolio/hugg3.jpg',
+    url: 'assets/portfolio/chantilly2.webp',
   },  
   {
-    filename: 'Lips',
-    url: 'assets/portfolio/lips.jpg',
-  },
-  {
-    filename: 'Old Money',
-    url: 'assets/portfolio/oldMoney.jpg',
-  },
-  {
     filename: 'Old Money 2',
-    url: 'assets/portfolio/oldMoney2.jpg',
-  },
-  {
-    filename: 'Old Money 3',
-    url: 'assets/portfolio/oldMoney3.jpg',
+    url: 'assets/portfolio/oldMoney2.webp',
   },
   {
     filename: 'Old Money 4',
-    url: 'assets/portfolio/oldMoney4.jpg',
+    url: 'assets/portfolio/oldMoney4.webp',
   },
+  {
+    filename: 'Old Money 3',
+    url: 'assets/portfolio/oldMoney3.webp',
+  },
+  
   {
     filename: 'Paris',
     url: 'assets/portfolio/paris.jpg',
   },
+  {
+    filename: 'Danse with me',
+    url: 'assets/portfolio/danse.webp',
+  },
     {
     filename: 'Hugg couple',
-    url: 'assets/portfolio/huggCouple.jpg',
+    url: 'assets/portfolio/huggCouple.webp',
   },
-    {
-    filename: "baby",
-    url: "assets/portfolio/beb1.jpg",
-  },
-    {
-    filename: "baby 2",
-    url: "assets/portfolio/beb2.jpg",
-    },
-    {
-    filename: "baby 3",
-    url: "assets/portfolio/beb3.jpg",
-    },
-    {
-    filename: "baby 4",
-    url: "assets/portfolio/beb4.jpg",
-    },
+    
     {
     filename: "Parapluie",
     url: "assets/portfolio/parapluie.jpg",
   },
-    {
-    filename: "Parapluie 2",
-    url: "assets/portfolio/parapluie2.jpg",
-  },
-    {
+  {
     filename: "Parapluie 3",
-    url: "assets/portfolio/parapluie3.jpg",   
+    url: "assets/portfolio/parapluie3.webp",   
   },
-    {
-    filename: "Parapluie 4",
-    url: "assets/portfolio/parapluie4.jpg",
-    },
     {
     filename: "Parapluie 5",
-    url: "assets/portfolio/parapluie5.jpg",
+    url: "assets/portfolio/parapluie5.webp",
     },
     {
-    filename: "Parapluie 6",
-    url: "assets/portfolio/parapluie6.jpg",
+      filename:"Couple on the road",
+      url: "assets/portfolio/coupleOnTheRoad.webp",
     },
     {
-    filename: "Parapluie 7",
-    url: "assets/portfolio/parapluie7.jpg",
+      filename:"Men carry a girl on his shoulder",
+      url: "assets/portfolio/girlOnMyShoulder.webp",
+    },
+    {
+      filename:"Kiss in the wood",
+      url: "assets/portfolio/kissInTheWood.webp",
     }
+    
+    
  
 ];

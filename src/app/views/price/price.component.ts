@@ -5,10 +5,11 @@ import { SweetPeaComponent } from "./sweet-pea/sweet-pea.component";
 import { FamilyHeirloomComponent } from "./family-heirloom/family-heirloom.component";
 import { RevealOnScrollDirective } from '../../shared/directives/reveal-on-scroll.directive';
 import { Router } from '@angular/router';
+import { WeddingComponent } from "./wedding/wedding.component";
 
 @Component({
   selector: 'app-price',
-  imports: [LoveAtFirstTimeComponent, BeforeYouComponent, SweetPeaComponent, FamilyHeirloomComponent, RevealOnScrollDirective],
+  imports: [LoveAtFirstTimeComponent, BeforeYouComponent, SweetPeaComponent, FamilyHeirloomComponent, RevealOnScrollDirective, WeddingComponent],
   template: `
     <section  class="relative w-full min-h-screen pt-24 bg-[#1A1C16]">
       
@@ -42,6 +43,9 @@ import { Router } from '@angular/router';
         </div>
         <div revealOnScroll>
           <app-family-heirloom (reserve)="onChildClick()"/>
+        </div>
+        <div revealOnScroll>
+          <app-wedding (reserve)="onChildClick()"/>
         </div>
       
 

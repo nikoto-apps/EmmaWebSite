@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
           <div class="h-[520px] md:h-[720px] overflow-hidden">
             <img
               class="h-full w-full object-cover"
-              src="assets/images/familyHeirloom.jpg"
+              src="assets/images/familyHeirloom.webp"
               alt="images of family heirloom"
             />
           </div>
@@ -73,7 +73,6 @@ export class FamilyHeirloomComponent {
   ];
 
   reserve = output<void>();
-  routes = inject(Router);
 
   onReserveClick(event: Event) {
     event.stopPropagation();

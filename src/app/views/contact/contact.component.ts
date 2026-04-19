@@ -35,7 +35,7 @@ import { CommunDataSharedService } from '../../shared/commun-data-shared.service
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
           <div class="relative overflow-hidden min-h-[420px] lg:min-h-[640px]">
             <img
-              src="assets/images/contactImg.jpg"
+              src="assets/images/contactImg.webp"
               alt="Contact - mood"
               class="absolute inset-0 h-full w-full object-cover"
             />

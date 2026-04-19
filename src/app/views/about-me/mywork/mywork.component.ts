@@ -23,7 +23,7 @@ import { InViewClassDirective } from '../../../shared/directives/in-view-class.d
 
       <div class="w-full md:w-1/2">
         <img
-          src="assets/images/myWork.jpg"
+          src="assets/images/myWork.webp"
           alt="Exemple de travail"
           class="w-full object-cover aspect-[4/5] md:aspect-[3/4]"
         />
