@@ -75,7 +75,7 @@ import { CommunDataSharedService } from '../../shared/commun-data-shared.service
                 <input
                   type="text"
                   formControlName="name"
-                  placeholder="Ex : Nicolas Floris"
+                  placeholder="Ex : Jean Lemoine"
                   class="w-full bg-[#0f100d] border border-white/10
                          px-4 py-3 text-[#D5C8B0] placeholder:text-[#D5C8B0]/35
                          focus:outline-none focus:ring-2 focus:ring-white/10"

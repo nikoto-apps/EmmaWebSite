@@ -9,9 +9,7 @@ import { Router } from '@angular/router';
       <div class="mx-auto max-w-6xl px-6 md:px-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           
-         
-
-        
+    
           <div class="text-center md:text-left">
             <h3 class="text-[#D5C8B0] text-4xl md:text-5xl font-light tracking-wide mb-4">
               Sweet Pea

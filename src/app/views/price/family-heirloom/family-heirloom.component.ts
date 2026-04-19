@@ -16,16 +16,16 @@ import { Router } from '@angular/router';
             />
           </div>
 
-          <div class="text-center md:text-center">
+          <div class="text-center md:text-left">
             <h3
               class="text-[#D5C8B0] text-4xl md:text-5xl font-light tracking-wide mb-4"
             >
               Family heirloom
             </h3>
-            <p class="text-[#D5C8B0] text-2xl font-medium mb-8">
+            <p class="text-[#D5C8B0]/80 text-lg mb-2">
               Portraits | Documentaire | In or Out
             </p>
-            <p class="text-[#D5C8B0]/85 text-lg leading-relaxed mb-10">280€</p>
+            <p class="text-[#D5C8B0] text-2xl font-medium mb-8">280€</p>
             <p class="text-[#D5C8B0]/85 text-lg leading-relaxed mb-10">
               La séance famille inclut 1h30 de photoshoot et une gallerie photos
               numérique.

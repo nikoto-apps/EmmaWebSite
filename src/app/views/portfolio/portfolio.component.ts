@@ -1,17 +1,15 @@
 import { Component, inject } from '@angular/core';
 import { NgFor, NgIf, AsyncPipe } from '@angular/common';
 import { PortfolioService } from './shared/service/portfolio.service';
-import { map } from 'rxjs';
-import { RevealOnScrollDirective } from '../../shared/directives/reveal-on-scroll.directive';
 import { PhotoCardRevealDirective } from '../../shared/directives/photo-card-reveal.directive';
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [PhotoCardRevealDirective],
+  imports: [PhotoCardRevealDirective ],
   template: `
-    <section  class="bg-[#1A1C16] relative min-h-screen pt-24">
-  <div  class="mx-auto max-w-6xl px-6 md:px-12">
+    <section class="bg-[#1A1C16] relative min-h-screen pt-24">
+  <div class="mx-auto max-w-6xl px-6 md:px-12">
 
     <header class="text-center pb-12">
       <p class="text-[#D5C8B0]/70 tracking-[0.25em] uppercase text-xs md:text-sm mb-6">
@@ -24,12 +22,13 @@ import { PhotoCardRevealDirective } from '../../shared/directives/photo-card-rev
     </header>
 
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
-      @for (img of images$(); track $index) {
+      @for (img of images$(); track img.url) {
         <div photoCardReveal class="aspect-[4/5] overflow-hidden">
           <img
             [src]="img.url"
             [alt]="img.filename"
             class="w-full h-full object-cover"
+            loading="lazy"
           />
         </div>
       }

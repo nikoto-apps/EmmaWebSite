@@ -7,30 +7,25 @@ import { Component, output } from '@angular/core';
     <section class="bg-[#1A1C16] py-24 border-t border-white/10">
       <div class="mx-auto max-w-6xl px-6 md:px-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div class="text-center md:text-center">
+          <div class="text-center md:text-left ">
             <h3
-              class="text-[#D5C8B0] text-4xl md:text-5xl font-light tracking-wide mb-10"
+              class="text-[#D5C8B0] text-4xl md:text-5xl font-light tracking-wide mb-4"
             >
               Weddings / Elopements
             </h3>
-            <p class="text-[#D5C8B0] text-2xl font-medium mb-8">
+            <p class="text-[#D5C8B0]/90 text-lg mb-2">
               Mariage | Elopement | Sur mesure
             </p>
-            <p class="text-[#D5C8B0]/85 text-lg leading-relaxed mb-10">
-              Sur devis uniquement
+            <p class="text-[#D5C8B0] text-2xl font-medium mb-8">
+              À partir de 600€
             </p>
 
             <p class="text-[#D5C8B0]/85 text-justify leading-relaxed">
-              Chaque mariage est une histoire unique, faite de moments sincères,
-              d’émotions profondes et de souvenirs précieux. J’aborde chaque
-              reportage avec discrétion et sensibilité afin de capturer
-              l’authenticité de votre journée, dans un style naturel et
-              intemporel. Que vous organisiez un mariage intimiste ou une
-              célébration plus importante, mon objectif est de préserver
-              l’essence de votre histoire à travers des images élégantes et
-              lumineuses. Chaque projet est préparé avec attention afin d’offrir
-              une expérience photographique en parfaite harmonie avec vos
-              attentes.
+              ​Le sur-mesure comme signature. De la poésie d'une fugue amoureuse
+              (elopement) au grand reportage de 10 heures, je module ma présence
+              selon vos envies. Parce que votre union est unique, je travaille
+              exclusivement sur devis pour créer une prestation qui vous
+              ressemble vraiment.
             </p>
             <button
               class="mt-10 px-6 py-3 border border-white/10

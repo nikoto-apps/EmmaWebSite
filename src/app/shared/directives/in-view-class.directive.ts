@@ -7,7 +7,7 @@ import { Directive, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
 export class InViewClassDirective implements OnInit, OnDestroy {
   @Input() inViewClass = 'animate-in';
   @Input() once = true;
-  @Input() threshold = 0.5;
+  @Input() threshold = 0.3;
 
   private observer?: IntersectionObserver;
 

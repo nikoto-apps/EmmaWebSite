@@ -8,16 +8,16 @@ export class PhotoCardRevealDirective implements OnInit, OnDestroy {
   /** Animate once or every time it enters/leaves viewport */
   @Input() once = true;
 
- @Input() delay = 0;
-@Input() stagger = 30;
-@Input() duration = 550;
-@Input() threshold = 0.15;
+  @Input() delay = 200;
+  @Input() stagger = 0;
+  @Input() duration = 420;
+  @Input() threshold = 0.05;
 
   /** Move distance in px */
-  @Input() y = 18;
+  @Input() y = 20;
 
   /** Slight zoom at start */
-  @Input() scaleFrom = 0.98;
+  @Input() scaleFrom = 0.95;
 
   private observer?: IntersectionObserver;
 
@@ -55,7 +55,7 @@ export class PhotoCardRevealDirective implements OnInit, OnDestroy {
           node.style.filter = 'blur(4px)';
         }
       },
-      { threshold: this.threshold, rootMargin: '0px 0px -10% 0px' }
+      { threshold: this.threshold, rootMargin: '0px 0px -10% 0px' },
     );
 
     this.observer.observe(node);
