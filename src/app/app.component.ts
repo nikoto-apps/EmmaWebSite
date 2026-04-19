@@ -6,8 +6,10 @@ import { FooterComponent } from './component/footer/footer.component';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
-  template: ` <div class="min-h-screen flex flex-col 
-  ">
+  template: ` <div
+    class="min-h-screen flex flex-col 
+  "
+  >
     <header><app-header /></header>
     <main class="flex-1  bg-[#0b0c0a]">
       <router-outlet></router-outlet>
@@ -18,5 +20,4 @@ import { FooterComponent } from './component/footer/footer.component';
   </div>`,
   styles: ``,
 })
-export class AppComponent {
-}
+export class AppComponent {}

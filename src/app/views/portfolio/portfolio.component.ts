@@ -30,7 +30,6 @@ import { PhotoCardRevealDirective } from '../../shared/directives/photo-card-rev
             [src]="img.url"
             [alt]="img.filename"
             class="w-full h-full object-cover"
-            loading="lazy"
           />
         </div>
       }
