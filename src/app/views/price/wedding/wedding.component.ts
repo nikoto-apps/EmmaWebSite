@@ -4,7 +4,7 @@ import { Component, output } from '@angular/core';
   selector: 'app-wedding',
   imports: [],
   template: `
-    <section class="bg-[#1A1C16] py-24 border-t border-white/10">
+    <section class="bg-[#1A1C16] py-24 border-white/10">
       <div class="mx-auto max-w-6xl px-6 md:px-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="text-center md:text-left ">

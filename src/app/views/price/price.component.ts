@@ -6,57 +6,74 @@ import { FamilyHeirloomComponent } from "./family-heirloom/family-heirloom.compo
 import { RevealOnScrollDirective } from '../../shared/directives/reveal-on-scroll.directive';
 import { Router } from '@angular/router';
 import { WeddingComponent } from "./wedding/wedding.component";
+import { CinematicExperienceComponent } from "./cinematic-experience/cinematic-experience.component";
 
 @Component({
   selector: 'app-price',
-  imports: [LoveAtFirstTimeComponent, BeforeYouComponent, SweetPeaComponent, FamilyHeirloomComponent, RevealOnScrollDirective, WeddingComponent],
+  imports: [LoveAtFirstTimeComponent, BeforeYouComponent, SweetPeaComponent, FamilyHeirloomComponent, RevealOnScrollDirective, WeddingComponent, CinematicExperienceComponent, CinematicExperienceComponent],
   template: `
-    <section  class="relative w-full min-h-screen pt-24 bg-[#1A1C16]">
-      
-     
-      <header class="mx-auto max-w-6xl px-6 md:px-12 text-center pb-14">
-        <p class="text-[#D5C8B0]/70 tracking-[0.25em] uppercase text-xs md:text-sm mb-6">
-          Services
-        </p>
+    <section class="relative w-full min-h-screen bg-[#1A1C16] pt-24">
 
-        <h1 class="text-[#D5C8B0] font-light tracking-tight
-                   text-4xl md:text-6xl lg:text-7xl leading-[1.05]">
-          Prestations et Tarifs
-        </h1>
+  <header class="mx-auto max-w-6xl px-6 md:px-12 text-center  md:pb-20">
+    <p class="mb-6 text-[#D5C8B0]/60 uppercase tracking-[0.4em] text-xs md:text-sm">
+      Services
+    </p>
 
-        <p class="mt-6 text-[#D5C8B0]/80 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-          Des séances pensées comme des souvenirs : naturelles, lumineuses, et livrées via une galerie privée.
-        </p>
+    <h1 class="text-[#D5C8B0]
 
-        <div class="mt-10 h-px w-24 mx-auto bg-white/10"></div>
-      </header>
+  font-light
 
+  tracking-tight
 
-        <div revealOnScroll>
-          <app-love-at-first-time (reserve)="onChildClick()" />
-        </div>
-        <div revealOnScroll>
-          <app-before-you  (reserve)="onChildClick()"/>
-        </div>
-        <div revealOnScroll>
-          <app-sweet-pea (reserve)="onChildClick()"/>
-        </div>
-        <div revealOnScroll>
-          <app-family-heirloom (reserve)="onChildClick()"/>
-        </div>
-        <div revealOnScroll>
-          <app-wedding (reserve)="onChildClick()"/>
-        </div>
-      
+  leading-[1.05]
 
-    </section>
+  text-4xl
+
+  sm:text-5xl
+
+  md:text-6xl">
+      Expériences Photographiques
+    </h1>
+
+    <p class="mt-7 mx-auto max-w-2xl text-[#D5C8B0]/75 text-base md:text-lg leading-relaxed">
+      Chaque séance est imaginée comme une expérience unique, pensée pour raconter
+      votre histoire avec élégance et authenticité.
+    </p>
+
+    <div class="mt-10 h-px w-24 mx-auto bg-white/10"></div>
+  </header>
+
+    <div revealOnScroll>
+      <app-cinematic-experience (reserve)="onChildClick()" />
+    </div>
+
+    <div revealOnScroll>
+      <app-before-you (reserve)="onChildClick()" />
+    </div>
+
+    <div revealOnScroll>
+      <app-love-at-first-time (reserve)="onChildClick()" />
+    </div>
+
+    <div revealOnScroll>
+      <app-sweet-pea (reserve)="onChildClick()" />
+    </div>
+
+    <div revealOnScroll>
+      <app-family-heirloom (reserve)="onChildClick()" />
+    </div>
+
+    <div revealOnScroll>
+      <app-wedding (reserve)="onChildClick()" />
+    </div>
+
+</section>
   `,
   styles: ``
 })
 export class PriceComponent {
 routes = inject(Router);
   onChildClick() {
-    console.log('Le bouton "Prendre rendez-vous" a été cliqué dans le composant LoveAtFirstTimeComponent');
    this.routes.navigate(['/contact']);
   }
 

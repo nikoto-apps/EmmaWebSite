@@ -132,6 +132,7 @@ import { CommunDataSharedService } from '../../shared/commun-data-shared.service
                   >
                     <option value="" disabled>Choisir…</option>
                     <option value="couple">Couple</option>
+                    <option value="cinematic-experience">Cinematic Experience</option>
                     <option value="maternite">Maternité</option>
                     <option value="nouveau-ne">Nouveau-né</option>
                     <option value="famille">Famille</option>

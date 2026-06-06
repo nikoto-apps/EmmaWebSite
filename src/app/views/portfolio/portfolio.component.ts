@@ -16,8 +16,14 @@ import { PhotoCardRevealDirective } from '../../shared/directives/photo-card-rev
         Portfolio
       </p>
       <h2 class="text-[#D5C8B0] font-light tracking-tight text-4xl md:text-6xl leading-[1.05]">
-        Une sélection de moments
+        Des souvenirs à transmettre
       </h2>
+
+          <p class="mt-7 mx-auto max-w-2xl text-[#D5C8B0]/75 text-base md:text-lg leading-relaxed">
+     Chaque image raconte une histoire,
+chaque séance capture un instant qui mérite d'être conservé.
+    </p>
+
       <div class="mt-10 h-px w-24 mx-auto bg-white/10"></div>
     </header>
 
